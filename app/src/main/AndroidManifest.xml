@@ -12,13 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppSolorzanoDiego"
+        android:theme="@style/Theme.PetApp"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".view.ui.RegistroActivity"
+            android:name="com.example.petapp.view.ui.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".view.ui.MainActivity"
+            android:name="com.example.petapp.view.ui.RegistroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,7 +1,7 @@
-package com.example.appsolorzanodiego.model.db.entity
+package com.example.petapp.model.db.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-@Entity(tableName = "tbldiego")
+@Entity(tableName = "tbl_mascotas")
 data class Mascota(
     @PrimaryKey
     val codigo: String,

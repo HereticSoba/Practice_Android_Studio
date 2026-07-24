@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appsolorzanodiego"
+    namespace = "com.example.petapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.appsolorzanodiego"
+        applicationId = "com.example.petapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,6 +43,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.2")
     // Retrofit dependencies
     implementation("com.squareup.retrofit2:retrofit:2.9.0") // Retrofit para llamadas API
     implementation("com.squareup.retrofit2:converter-gson:2.9.0") // Convertidor de Retrofit para Gson

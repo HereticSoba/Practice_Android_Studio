@@ -1,4 +1,4 @@
-package com.example.appsolorzanodiego.retrofit.response
+package com.example.petapp.retrofit.response
 
 data class ProductoResponse(
     val products: List<Producto>

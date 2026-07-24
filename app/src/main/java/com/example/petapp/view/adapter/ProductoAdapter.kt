@@ -1,11 +1,11 @@
-package com.example.appsolorzanodiego.view.adapter
+package com.example.petapp.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.appsolorzanodiego.databinding.ItemProductoBinding
-import com.example.appsolorzanodiego.retrofit.response.Producto
+import com.example.petapp.databinding.ItemProductoBinding
+import com.example.petapp.retrofit.response.Producto
 
 class ProductoAdapter : RecyclerView.Adapter<ProductoAdapter.ProductoViewHolder>() {
 

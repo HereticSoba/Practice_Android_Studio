@@ -1,4 +1,4 @@
-package com.example.appsolorzanodiego
+package com.example.petapp
 
 import org.junit.Test
 

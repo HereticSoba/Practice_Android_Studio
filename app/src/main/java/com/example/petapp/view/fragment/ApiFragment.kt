@@ -1,4 +1,4 @@
-package com.example.appsolorzanodiego.view.fragment
+package com.example.petapp.view.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.appsolorzanodiego.databinding.FragmentApiBinding
-import com.example.appsolorzanodiego.view.adapter.ProductoAdapter
-import com.example.appsolorzanodiego.viewmodel.MascotaViewModel
+import com.example.petapp.databinding.FragmentApiBinding
+import com.example.petapp.view.adapter.ProductoAdapter
+import com.example.petapp.viewmodel.MascotaViewModel
 
 class ApiFragment : Fragment() {
 

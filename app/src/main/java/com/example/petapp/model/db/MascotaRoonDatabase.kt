@@ -1,13 +1,13 @@
-package com.example.appsolorzanodiego.model.db
+package com.example.petapp.model.db
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.appsolorzanodiego.model.db.dao.MascotaDao
-import com.example.appsolorzanodiego.model.db.entity.Mascota
+import com.example.petapp.model.db.dao.MascotaDao
+import com.example.petapp.model.db.entity.Mascota
 
 
-@Database(entities = [Mascota::class], version = 1)
+@Database(entities = [Mascota::class], version = 1, exportSchema = false)
 public abstract class MascotaRoomDatabase : RoomDatabase() {
 
     // Proporciona acceso al DAO de Mascota
@@ -27,7 +27,7 @@ public abstract class MascotaRoomDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     MascotaRoomDatabase::class.java,
-                    "bd72787033" // El nombre de la base de datos
+                    "bdmascotas" // El nombre de la base de datos
                 ).build()
                 INSTANCE = instance
                 return instance

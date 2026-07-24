@@ -1,6 +1,6 @@
-package com.example.appsolorzanodiego.retrofit
+package com.example.petapp.retrofit
 
-import com.example.appsolorzanodiego.retrofit.response.ProductoResponse
+import com.example.petapp.retrofit.response.ProductoResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

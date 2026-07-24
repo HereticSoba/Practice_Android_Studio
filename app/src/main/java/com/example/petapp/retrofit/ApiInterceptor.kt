@@ -1,4 +1,4 @@
-package com.example.appsolorzanodiego.retrofit
+package com.example.petapp.retrofit
 
 import okhttp3.Interceptor
 import okhttp3.Response

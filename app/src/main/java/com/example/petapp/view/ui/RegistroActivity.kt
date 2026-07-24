@@ -1,18 +1,14 @@
-package com.example.appsolorzanodiego.view.ui
+package com.example.petapp.view.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
-import com.example.appsolorzanodiego.R
-import com.example.appsolorzanodiego.databinding.ActivityRegistroBinding
-import com.example.appsolorzanodiego.model.db.entity.Mascota
-import com.example.appsolorzanodiego.viewmodel.MascotaViewModel
+import com.example.petapp.databinding.ActivityRegistroBinding
+import com.example.petapp.model.db.entity.Mascota
+import com.example.petapp.viewmodel.MascotaViewModel
 
 class RegistroActivity : AppCompatActivity() {
 

@@ -1,10 +1,10 @@
-package com.example.appsolorzanodiego.view.adapter
+package com.example.petapp.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.appsolorzanodiego.databinding.ItemMascotaBinding
-import com.example.appsolorzanodiego.model.db.entity.Mascota
+import com.example.petapp.databinding.ItemMascotaBinding
+import com.example.petapp.model.db.entity.Mascota
 
 class MascotaAdapter : RecyclerView.Adapter<MascotaAdapter.MascotaViewHolder>() {
 

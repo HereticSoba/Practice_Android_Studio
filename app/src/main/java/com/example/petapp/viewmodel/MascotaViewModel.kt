@@ -1,14 +1,14 @@
-package com.example.appsolorzanodiego.viewmodel
+package com.example.petapp.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.appsolorzanodiego.model.db.MascotaRoomDatabase
-import com.example.appsolorzanodiego.model.db.entity.Mascota
-import com.example.appsolorzanodiego.retrofit.MascotaCliente
-import com.example.appsolorzanodiego.retrofit.response.Producto
+import com.example.petapp.model.db.MascotaRoomDatabase
+import com.example.petapp.model.db.entity.Mascota
+import com.example.petapp.retrofit.MascotaCliente
+import com.example.petapp.retrofit.response.Producto
 import kotlinx.coroutines.launch
 
 class MascotaViewModel(application: Application) : AndroidViewModel(application) {
@@ -35,7 +35,7 @@ class MascotaViewModel(application: Application) : AndroidViewModel(application)
     fun insertarMascota(mascota: Mascota, onResult: (Boolean, String) -> Unit) {
         viewModelScope.launch {
             try {
-                val existente = mascotaDao.obtenerPorCodigo(mascota.codigo).value
+                val existente = mascotaDao.obtenerPorCodigo(mascota.codigo)
                 if (existente == null) {
                     mascotaDao.insertar(mascota)
                     onResult(true, "Mascota guardada correctamente")
