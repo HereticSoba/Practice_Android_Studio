@@ -47,7 +47,7 @@ Clasificación del proyecto: Principiante - Intermedio
 1. Clonar el repositorio.
 
 ```bash
-git clone https://github.com/HereticSoba/Sustitutorio.git
+git clone https://github.com/HereticSoba/Practice_Android_Studio.git
 ```
 
 2. Abrir el proyecto con Android Studio.
