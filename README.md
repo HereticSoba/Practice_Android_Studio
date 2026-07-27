@@ -132,6 +132,47 @@ suspend fun insertar(vararg mascota: Mascota)
 ```
 ---
 
+## 📸 Screenshots
+
+<table align="center">
+<tr>
+<td align="center">
+
+<img src="Screenshots/ingreso_de_datos.jpeg" width="250"/>
+
+**Formulario de Ingreso de Datos**
+
+</td>
+
+<td align="center">
+
+<img src="Screenshots/registro_exitoso.jpeg" width="250"/>
+
+**Ingreso de Datos Exitoso**
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="Screenshots/listado_api.jpeg" width="250"/>
+
+**Listado Productos del API**
+
+</td>
+
+<td align="center">
+
+<img src="Screenshots/listado_mascotas.jpeg" width="250"/>
+
+**Listado Mascotas**
+
+</td>
+</tr>
+</table>
+
+
 ## 👨‍💻 Autor
 
 **HereticSoba (Diego)**
