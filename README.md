@@ -1,6 +1,6 @@
 # 🐾 Aplicación de Gestión de Mascotas
 
-Aplicación móvil desarrollada en **Kotlin** para Android como proyecto de práctica. Permite registrar mascotas localmente mediante **Room Database** y consultar información desde una **API REST**, implementando la arquitectura **MVVM** y demás características descritas abajo.
+Aplicación móvil desarrollada en **Kotlin** para Android como proyecto de práctica. Permite registrar mascotas localmente mediante **Room Database** y consultar productos desde una **API REST**, implementando la arquitectura **MVVM** y demás características descritas abajo.
 
 Clasificación del proyecto: Principiante - Intermedio
 
@@ -11,11 +11,13 @@ Clasificación del proyecto: Principiante - Intermedio
 - ✅ Registro de mascotas.
 - ✅ Almacenamiento local con Room Database.
 - ✅ Visualización de mascotas registradas.
-- ✅ Consumo de API mediante Retrofit.
-- ✅ Carga de imágenes con Glide.
-- ✅ Navegación mediante BottomNavigation.
+- ✅ Consumo de la API REST **DummyJSON** mediante Retrofit.
+- ✅ Visualización de productos con RecyclerView.
+- ✅ Carga de imágenes mediante Glide.
+- ✅ Navegación entre pantallas con BottomNavigationView.
 - ✅ Arquitectura MVVM.
 - ✅ ViewBinding.
+- ✅ Uso de LiveData y Coroutines.
 
 ---
 
@@ -29,7 +31,27 @@ Clasificación del proyecto: Principiante - Intermedio
 - RecyclerView
 - LiveData
 - ViewModel
+- Coroutines
 - Material Design
+
+---
+
+## 🌐 API utilizada
+
+La aplicación consume la siguiente API pública:
+
+**DummyJSON**
+
+```
+https://dummyjson.com/products
+```
+
+De cada producto se muestran los siguientes datos:
+
+- Título
+- Precio
+- Categoría
+- Imagen (thumbnail)
 
 ---
 
