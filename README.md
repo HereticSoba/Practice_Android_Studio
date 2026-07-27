@@ -9,14 +9,23 @@ Clasificación del proyecto: Principiante - Intermedio
 ## 📱 Características
 
 ✅ Registro de mascotas.
+
 ✅ Almacenamiento local con Room Database.
+
 ✅ Visualización de mascotas registradas.
+
 ✅ Consumo de la API REST **DummyJSON** mediante Retrofit.
+
 ✅ Visualización de productos con RecyclerView.
+
 ✅ Carga de imágenes mediante Glide.
+
 ✅ Navegación entre pantallas con BottomNavigationView.
+
 ✅ Arquitectura MVVM.
+
 ✅ ViewBinding.
+
 ✅ Uso de LiveData y Coroutines.
 
 ---
